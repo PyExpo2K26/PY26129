@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS sensor_log (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+    moisture_1 REAL,
+    moisture_2 REAL,
+    moisture_3 REAL,
+    moisture_4 REAL,
+    moisture_5 REAL,
+    moisture_6 REAL,
+    water_flow REAL,
+    pump_status TEXT,
+    gate_1 TEXT,
+    gate_2 TEXT,
+    gate_3 TEXT,
+    gate_4 TEXT,
+    gate_5 TEXT,
+    gate_6 TEXT,
+    gate_7 TEXT,
+    gate_8 TEXT
+);
